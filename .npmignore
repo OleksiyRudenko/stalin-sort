@@ -1,0 +1,11 @@
+# The following paths and files are never ignored:
+# - package.json
+# - README (and its variants)
+# - CHANGELOG (and its variants)
+# - LICENSE / LICENCE
+# source: https://docs.npmjs.com/using-npm/developers.html#keeping-files-out-of-your-package
+*
+!index.js
+!utils.js
+!*.test.js
+!yarn.lock

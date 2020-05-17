@@ -1,0 +1,33 @@
+{
+  "name": "stalin-sort",
+  "version": "0.0.1",
+  "description": "stalinSort - a repressive sorting algo",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/OleksiyRudenko/stalin-sort.git"
+  },
+  "author": "OleksiyRudenko <oleksiy.rudenko@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "keywords": [
+    "npm",
+    "module",
+    "node",
+    "stalinSort",
+    "stalin-sort",
+    "stalin",
+    "data-repression",
+    "algorithm"
+  ],
+  "bugs": "https://github.com/OleksiyRudenko/stalin-sort/issues",
+  "homepage": "https://github.com/OleksiyRudenko/stalin-sort#readme",
+  "scripts": {
+    "test": "jest",
+    "lint": "standard \"**/*.js\""
+  },
+  "devDependencies": {
+    "jest": "^25.5.0",
+    "standard": "^14.3.3"
+  }
+}
