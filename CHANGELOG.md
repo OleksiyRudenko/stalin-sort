@@ -1,5 +1,8 @@
 # Changes to stalin-sort-stub
 
+## 0.5.0 (May 17, 2020)
+- Add error handling on wrong argument type
+
 ## 0.4.2 (May 17, 2020)
 - Change `Array.filter` condition (distill logic)
 
