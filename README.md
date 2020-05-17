@@ -6,13 +6,13 @@ Developed for educational purposes within [kottans](https://github.com/kottans)
 
 ## Installation
 
-- npm: `npm install --save stalin-sort`
-- yarn: `yarn add stalin-sort`
+- npm: `npm install --save @rudenko/stalin-sort`
+- yarn: `yarn add @rundenko/stalin-sort`
 
 ## Usage
 
 ```javascript
-const stalinSort = require('stalin-sort')
+const stalinSort = require('@rudenko/stalin-sort')
 
 const numbers = [5, 2, 18, 1];
 const strings = ['klm', 'nop', 'def', 'abc']

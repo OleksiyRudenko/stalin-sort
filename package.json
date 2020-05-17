@@ -1,5 +1,5 @@
 {
-  "name": "stalin-sort",
+  "name": "@rudenko/stalin-sort",
   "version": "0.7.0",
   "description": "stalinSort - a repressive sorting algo",
   "main": "index.js",
@@ -9,7 +9,7 @@
   },
   "author": "OleksiyRudenko <oleksiy.rudenko@gmail.com>",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "keywords": [
     "npm",
     "module",
