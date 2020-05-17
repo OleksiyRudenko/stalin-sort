@@ -27,6 +27,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.1.0   | Add `for` loop implementation   | Tests succeed    |
 | 0.1.1   | Change implementation using `for...in` loop | Tests succeed    |
 | 0.1.2   | Change implementation using `for...of` loop | Tests succeed    |
+| 0.2.0   | Change implementation using `Array.forEach` | Tests succeed    |
 
 ## Similar projects
 
