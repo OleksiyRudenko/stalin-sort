@@ -24,6 +24,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.0.1   | Initialize project              |                  |
 | 0.0.2   | Add code stub and basic test    | Tests fail       |
 | 0.0.3   | Add positive scenarios test set | Tests still fail |
+| 0.1.0   | Add 'for' loop implementation   | Tests succeed    |
 
 ## Similar projects
 
