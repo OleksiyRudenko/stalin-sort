@@ -11,7 +11,29 @@ Developed for educational purposes within [kottans](https://github.com/kottans)
 
 ## Usage
 
-TBD
+```javascript
+const stalinSort = require('stalin-sort')
+
+const numbers = [5, 2, 18, 1];
+const strings = ['klm', 'nop', 'def', 'abc']
+let result
+
+try {
+  result = stalinSort(numbers) // [5, 18]
+} catch (e) {
+  // handle exception TypeError('Argument must be an array')
+}
+
+try {
+  result = stalinSort(strings, (a, b) => a > b) // ['klm', 'def', 'abc']
+} catch (e) {
+  // handle exceptions:
+  // - TypeError('Argument must be an array')
+  // - TypeError('Comparator must be a function')
+}
+```
+
+See [`example.js`](./example.js) for more examples.
 
 ## Educational
 
@@ -33,6 +55,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.4.1   | Change `Array.filter` condition (skip boolean literals) | Tests succeed    |
 | 0.5.0   | Add error handling on wrong argument type | Tests succeed    |
 | 0.6.0   | Add `compare` argument and pre-defined comparators | Tests succeed    |
+| 0.7.0   | Add usage and `example.js`      | Tests succeed    |
 
 ## Similar projects
 

@@ -1,6 +1,6 @@
 {
   "name": "stalin-sort",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "stalinSort - a repressive sorting algo",
   "main": "index.js",
   "repository": {

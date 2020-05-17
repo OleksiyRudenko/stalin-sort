@@ -1,7 +1,10 @@
 # Changes to stalin-sort-stub
 
+## 0.7.0 (May 17, 2020)
+- Add usage and `example.js`
+
 ## 0.6.0 (May 17, 2020)
-Add `compare` argument and pre-defined comparators
+- Add `compare` argument and pre-defined comparators
 
 ## 0.5.0 (May 17, 2020)
 - Add error handling on wrong argument type
