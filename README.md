@@ -30,6 +30,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.2.0   | Change implementation using `Array.forEach` | Tests succeed    |
 | 0.3.0   | Change implementation using `Array.reduce` | Tests succeed    |
 | 0.4.0   | Change implementation using `Array.filter` | Tests succeed    |
+| 0.4.1   | Change `Array.filter` condition (skip boolean literals) | Tests succeed    |
 
 ## Similar projects
 
