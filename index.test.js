@@ -1,6 +1,17 @@
 /* eslint-env jest */
 const stalinSort = require('./index')
 
-it('represses [5, 2, 18, 1] into [5, 18]', () => {
-  expect(stalinSort([5, 2, 18, 1])).toEqual([5, 18])
+const positiveCasesDefault = [
+  [[5, 2, 18, 1], [5, 18]],
+  [['John', 'Bernie', 'Kevin', 'Arnold'], ['John', 'Kevin']],
+  [[], []]
+]
+
+describe('Positive scenarios (default behaviour)', () => {
+  test.each(positiveCasesDefault)(
+    'represses %p into %p',
+    (argument, expectedResult) => {
+      expect(stalinSort(argument)).toEqual(expectedResult)
+    }
+  )
 })

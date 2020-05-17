@@ -19,10 +19,11 @@ Advance from version to version to track the development process.
 
 See also [CHANGELOG.md](./CHANGELOG.md)
 
-| Version | Milestone                    | Comment
-|  :---:  | :---                         | :---
-| 0.0.1   | Initialize project           |
-| 0.0.2   | Add code stub and basic test | Tests fail
+| Version | Milestone                       | Comment          |
+| ------- | ------------------------------- | ---------------- |
+| 0.0.1   | Initialize project              |                  |
+| 0.0.2   | Add code stub and basic test    | Tests fail       |
+| 0.0.3   | Add positive scenarios test set | Tests still fail |
 
 ## Similar projects
 
