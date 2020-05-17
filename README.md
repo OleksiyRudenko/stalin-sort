@@ -26,6 +26,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.0.3   | Add positive scenarios test set | Tests still fail |
 | 0.1.0   | Add `for` loop implementation   | Tests succeed    |
 | 0.1.1   | Change implementation using `for...in` loop | Tests succeed    |
+| 0.1.2   | Change implementation using `for...of` loop | Tests succeed    |
 
 ## Similar projects
 

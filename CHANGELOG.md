@@ -1,7 +1,10 @@
 # Changes to stalin-sort-stub
 
+## 0.1.2 (May 17, 2020)
+- Change implementation using `for...of` loop
+
 ## 0.1.1 (May 17, 2020)
-- Change implementation using on `for...in` loop
+- Change implementation using `for...in` loop
 
 ## 0.1.0 (May 17, 2020)
 - Add implementation based on `for` loop
