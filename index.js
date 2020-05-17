@@ -1,11 +1,11 @@
 const stalinSort = (arr) => {
-  return arr.reduce(
-    (acc, v) => acc.length
-      ? acc[acc.length - 1] < v
-        ? [...acc, v]
-        : acc
-      : [v],
-    [])
+  return arr.filter(
+    (v, i, a) => i
+      ? a[i - 1] < v
+        ? true
+        : false
+      : true
+  )
 }
 
 module.exports = stalinSort
