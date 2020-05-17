@@ -1,5 +1,8 @@
 # Changes to stalin-sort-stub
 
+## 0.4.2 (May 17, 2020)
+- Change `Array.filter` condition (distill logic)
+
 ## 0.4.1 (May 17, 2020)
 - Change `Array.filter` condition (skip boolean literals)
 
