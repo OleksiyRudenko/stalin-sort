@@ -32,6 +32,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.4.0   | Change implementation using `Array.filter` | Tests succeed    |
 | 0.4.1   | Change `Array.filter` condition (skip boolean literals) | Tests succeed    |
 | 0.5.0   | Add error handling on wrong argument type | Tests succeed    |
+| 0.6.0   | Add `compare` argument and pre-defined comparators | Tests succeed    |
 
 ## Similar projects
 
