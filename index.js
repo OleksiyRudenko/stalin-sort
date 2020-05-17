@@ -1,15 +1,11 @@
 const stalinSort = (arr) => {
-  const output = []
-  arr.forEach((v, i, a) => {
-    if (i) {
-      if (v > a[i - 1]) {
-        output.push(v)
-      }
-    } else {
-      output.push(v)
-    }
-  })
-  return output
+  return arr.reduce(
+    (acc, v) => acc.length
+      ? acc[acc.length - 1] < v
+        ? [...acc, v]
+        : acc
+      : [v],
+    [])
 }
 
 module.exports = stalinSort

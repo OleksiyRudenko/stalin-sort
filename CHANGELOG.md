@@ -1,5 +1,8 @@
 # Changes to stalin-sort-stub
 
+## 0.3.0 (May 17, 2020)
+- Change implementation using `Array.reduce`
+
 ## 0.2.0 (May 17, 2020)
 - Change implementation using `Array.forEach`
 
