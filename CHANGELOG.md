@@ -1,5 +1,8 @@
 # Changes to stalin-sort-stub
 
+## 0.8.0 (May 28, 2020)
+- Fix `stalinSort` implementation logical mistake
+
 ## 0.7.0 (May 17, 2020)
 - Add usage and `example.js`
 

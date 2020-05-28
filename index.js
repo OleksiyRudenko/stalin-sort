@@ -21,7 +21,14 @@ const stalinSort = (arr, compare = comparatorAscending) => {
   if (typeof compare !== 'function') {
     throw new TypeError('Comparator must be a function')
   }
-  return arr.filter((v, i, a) => !i || compare(a[i - 1], v))
+  if (!arr.length) return []
+
+  const [first, ...rest] = arr
+
+  return rest.reduce((acc, element) => {
+    const isValid = compare(acc[acc.length - 1], element)
+    return isValid ? [...acc, element] : acc
+  }, [first])
 }
 
 module.exports = stalinSort

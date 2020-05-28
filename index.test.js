@@ -4,12 +4,14 @@ const { comparatorDescending } = require('./utils')
 
 const positiveCasesDefault = [
   [[5, 2, 18, 1], [5, 18]],
+  [[5, 2, 3, 18, 1], [5, 18]],
   [['John', 'Bernie', 'Kevin', 'Arnold'], ['John', 'Kevin']],
   [[], []]
 ]
 
 const positiveCasesDescending = [
   [[5, 2, 18, 1], [5, 2, 1]],
+  [[5, 2, 3, 18, 1], [5, 2, 1]],
   [['John', 'Bernie', 'Kevin', 'Arnold'], ['John', 'Bernie', 'Arnold']],
   [[], []]
 ]

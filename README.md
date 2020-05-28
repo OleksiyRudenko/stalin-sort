@@ -57,6 +57,7 @@ See also [CHANGELOG.md](./CHANGELOG.md)
 | 0.5.0   | Add error handling on wrong argument type | Tests succeed    | [v0.4.2...v0.5.0](https://github.com/OleksiyRudenko/stalin-sort/compare/v0.4.2...v0.5.0)
 | 0.6.0   | Add `compare` argument and pre-defined comparators | Tests succeed    | [v0.5.0...v0.6.0](https://github.com/OleksiyRudenko/stalin-sort/compare/v0.5.0...v0.6.0)
 | 0.7.0   | Add usage and `example.js`      | Tests succeed    | [v0.6.0...v0.7.0](https://github.com/OleksiyRudenko/stalin-sort/compare/v0.6.0...v0.7.0)
+| 0.8.0   | Fix `stalinSort` implementation logical mistake    | Tests succeed    | [v0.7.0...v0.8.0](https://github.com/OleksiyRudenko/stalin-sort/compare/v0.7.0...v0.8.0)
 
 ## Similar projects
 
