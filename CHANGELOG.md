@@ -1,5 +1,8 @@
 # Changes to stalin-sort-stub
 
+## 0.8.1 (May 28, 2020)
+- Add tests for comparison functions from `utils`
+
 ## 0.8.0 (May 28, 2020)
 - Fix `stalinSort` implementation logical mistake
 

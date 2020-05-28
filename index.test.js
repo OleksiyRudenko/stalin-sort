@@ -55,7 +55,7 @@ describe('Negative scenarios: error should be thrown on bad argument', () => {
   )
 })
 
-describe('Negative scenarios: error should be thrown on bad comparator function', () => {
+describe('Negative scenarios: error should be thrown on bad comparator callback argument type', () => {
   test.each(negativeCasesBadComparator)(
     'throws an error on comparator of type %p',
     (argumentType, argument, expectedResult) => {
