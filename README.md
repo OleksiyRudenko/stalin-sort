@@ -7,7 +7,7 @@ Developed for educational purposes within [kottans](https://github.com/kottans)
 ## Installation
 
 - npm: `npm install --save @rudenko/stalin-sort`
-- yarn: `yarn add @rundenko/stalin-sort`
+- yarn: `yarn add @rudenko/stalin-sort`
 
 ## Usage
 
